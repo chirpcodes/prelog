@@ -1,7 +1,7 @@
 {
 	"name": "prelog",
 	"version": "1.0.0",
-	"description": "Log prefixes.",
+	"description": "Basic log prefixes and colouring.",
 	"author": "chirp (https://github.com/chrpy)",
 	"url": "https://github.com/chrpy/prelog",
 	"repository": "github:chrpy/prelog",
