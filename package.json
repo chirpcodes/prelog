@@ -1,0 +1,10 @@
+{
+	"name": "prelog",
+	"version": "1.0.0",
+	"description": "Log prefixes.",
+	"author": "chirp (https://github.com/chrpy)",
+	"url": "https://github.com/chrpy/prelog",
+	"repository": "github:chrpy/prelog",
+	"license": "MIT",
+	"main": "./src/prelog.js"
+}
