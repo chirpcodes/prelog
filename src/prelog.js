@@ -26,12 +26,11 @@ class Logger {
 		
 		colour = colour in Cl ? Cl[colour] : colour;
 		
-		return this[key] = (...args)=>{
-			let pre = null;
+		return this[key] = function(...args) {
+			let pre = text;
 			if (text) {
 				if (colour)
-					text = `${colour}${text}${Cl.Reset} `;
-				pre = text;
+					pre = `${colour}${pre}${Cl.Reset} `;
 			}
 
 			const print = [];
