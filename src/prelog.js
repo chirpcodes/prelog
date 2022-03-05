@@ -15,7 +15,9 @@ const Cl = {
 // Class
 
 class Logger {
-	constructor() {}
+	constructor() {
+		this._keys = [];
+	}
 
 	add(key, text, colour) {
 		if (this[key])
@@ -26,6 +28,7 @@ class Logger {
 		
 		colour = colour in Cl ? Cl[colour] : colour;
 		
+		this._keys.push(key);
 		return this[key] = function(...args) {
 			let pre = text;
 			if (text) {
